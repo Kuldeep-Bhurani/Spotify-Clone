@@ -1,0 +1,49 @@
+@media screen and (max-width: 790px) {
+	.songItem {
+		width: 100%;
+	}
+	.songInfo {
+		position: relative;
+		margin: 5px 0;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.songItem {
+		justify-content: space-around;
+	}
+	.songItem img {
+		height: 25px;
+		width: 25px;
+		border-radius: 15px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.songList h1 {
+		font-size: 1rem;
+	}
+	.songItem {
+		justify-content: space-around;
+		font-size: 0.6rem;
+		padding-left: 12px;
+	}
+	.songItem img {
+		display: none;
+	}
+	.songInfo {
+		font-size: 0.7rem;
+	}
+}
+
+@media screen and (max-width: 318px) {
+	.time {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 222px) {
+	.songItem {
+		font-size: 0.4rem;
+	}
+}
